@@ -2792,7 +2792,7 @@ nemo_list_view_set_zoom_level (NemoListView *view,
 	nemo_view_update_menus (NEMO_VIEW (view));
 
 	/* FIXME: https://bugzilla.gnome.org/show_bug.cgi?id=641518 */
-	gtk_tree_view_columns_autosize (view->details->tree_view);
+	//gtk_tree_view_columns_autosize (view->details->tree_view);
 }
 
 static void
